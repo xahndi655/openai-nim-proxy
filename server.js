@@ -29,6 +29,12 @@ const MODEL_MAPPING = {
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking' 
+    // DeepSeek models
+  'deepseek-v3': 'deepseek-ai/deepseek-v3.1',
+  'deepseek-r1': 'deepseek-ai/deepseek-r1',
+  'deepseek-qwen-32b': 'deepseek-ai/deepseek-r1-distill-qwen-32b',
+  'deepseek-qwen-14b': 'deepseek-ai/deepseek-r1-distill-qwen-14b',
+  'deepseek-llama-70b': 'deepseek-ai/deepseek-r1-distill-llama-70b'
 };
 
 // Health check endpoint
